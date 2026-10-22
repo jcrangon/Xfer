@@ -1,0 +1,16 @@
+﻿option;critere;avantage_potentiel;limite_potentielle;piece_ou_test_attendu;constat;statut
+A Sur mesure;Accessibilité du parcours;;;;;A TESTER
+A Sur mesure;Données et droits;;;;;A TESTER
+A Sur mesure;Réservation et liste attente;;;;;A TESTER
+A Sur mesure;Coût total;;;;;A TESTER
+A Sur mesure;Export et réversibilité;;;;;A TESTER
+B SaaS;Accessibilité du parcours;;;;;A TESTER
+B SaaS;Données et droits;;;;;A TESTER
+B SaaS;Réservation et liste attente;;;;;A TESTER
+B SaaS;Coût total;;;;;A TESTER
+B SaaS;Export et réversibilité;;;;;A TESTER
+C Open source;Accessibilité du parcours;;;;;A TESTER
+C Open source;Données et droits;;;;;A TESTER
+C Open source;Réservation et liste attente;;;;;A TESTER
+C Open source;Coût total;;;;;A TESTER
+C Open source;Export et réversibilité;;;;;A TESTER
