@@ -1,0 +1,12 @@
+{
+  "version": "V3",
+  "files": 55,
+  "student_csv": 9,
+  "corrected_csv": 9,
+  "source_16_verbatims": true,
+  "proposals_F01_F14": 14,
+  "responses_RA": 8,
+  "needs_NB": 14,
+  "tests_T": 12,
+  "nfr": 8
+}

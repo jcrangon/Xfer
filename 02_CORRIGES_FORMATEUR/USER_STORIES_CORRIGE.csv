@@ -1,0 +1,9 @@
+﻿ID story;Fonction Fxx;Rôle;Je veux;Afin de;Exigence FR-xx;Source;Statut
+US-01;F01;Visiteur;consulter les séances publiées;choisir un atelier;FR-01;B-01;candidat
+US-02;F05,F06;Participant;demander une réservation à une séance ouverte;obtenir une place sans dépassement de capacité;FR-02;B-02,B-06,RA-04;candidat
+US-03;F07;Participant;connaître clairement le résultat de ma demande;savoir si ma place est confirmée;FR-03;B-13;candidat
+US-04;F09;Participant;annuler une réservation selon la règle fixée;libérer une place;FR-04;B-09,RA-05;règle de délai ouverte
+US-05;F04;Gestionnaire local;accéder seulement aux inscriptions autorisées;protéger les autres structures;FR-05;B-15,RA-02;rôles à valider
+US-06;F04;Gestionnaire local;modifier une séance de ma structure;corriger un horaire;FR-06;B-07,RA-01;information des inscrits ouverte
+US-07;F05;Participant;utiliser le parcours de réservation sur téléphone;éviter un blocage mobile;FR-07;B-02,RA-06;critères appareils ouverts
+US-08;F08;Participant;être éventuellement invité depuis la liste d’attente;profiter d’une place libérée;FR-08;B-08,carte C;hors MVP et à arbitrer

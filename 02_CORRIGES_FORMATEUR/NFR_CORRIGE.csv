@@ -1,0 +1,9 @@
+﻿ID NFR;Besoin/source;Qualité attendue;Contexte essai;Mesure et moyen de contrôle;Seuil confirmé ou à définir;Statut
+NFR-01;B-15,RA-02;Cloisonnement des données entre structures;Comptes S1/S2 et demandes inter-structures;Essais lecture/écriture croisés, journaliser refus;0 accès non autorisé au périmètre testé;candidat, gouvernance à valider
+NFR-02;B-14;Accessibilité du formulaire au clavier;Parcours catalogue → fiche → réservation;Navigation Tab / Shift+Tab / Entrée sans souris et revue WCAG cible;Référentiel, niveau et modalités de contrôle à décider;partiellement spécifié
+NFR-03;B-02,RA-06;Utilisation sur téléphone;Scénario de réservation et annulation;Tests sur appareils / navigateurs représentatifs;Appareils et versions cibles inconnus;à compléter
+NFR-04;B-03;Performance sous charge à définir;Population et volume à mesurer;Essai de charge avec métriques et seuils convenus;"INCONNU ; 8000/mois seulement estimés";incomplet
+NFR-05;B-09,RA-05;Cohérence de disponibilité après annulation;Séance complète puis annulation;Contrôler total confirmation / capacité et restitution;Règles d’annulation ouvertes;candidat
+NFR-06;B-16;Conservation et suppression des données;Cycle d’une réservation clôturée;Audit finalités / durées / traitement des données;Durées et base légale INCONNUES;incomplet
+NFR-07;Aucune source formelle;Disponibilité opérationnelle;Période et service à définir;Mesure indisponibilité sur période réelle;SLA non validé;proposition à discuter
+NFR-08;Aucune source formelle;Restaurabilité des réservations;Jeu de sauvegarde de test;Restaurer et comparer intégrité;RPO/RTO à décider;proposition à discuter

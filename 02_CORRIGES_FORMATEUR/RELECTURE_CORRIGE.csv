@@ -1,0 +1,9 @@
+﻿Contrôle;Résultat OK / ECHEC / OUVERT;Preuve fichier ou ID;Correction / responsable
+Toutes les réponses RA-xx viennent de la carte A;OK;CARTE_A / REPONSES_ENTRETIEN_CORRIGE;—
+Consolidation NB-xx créée après S2 et utilisée dans S3;OK;CONSOLIDATION_BESOINS_CORRIGE / BACKLOG_CORRIGE;—
+F11 F12 F14 ne deviennent pas des demandes validées;OK;BACKLOG_CORRIGE F11/F12/F14;—
+F05 dépend de F03 + F06, F07 de F05;OK;BACKLOG_CORRIGE F05-F07;—
+Chaîne B-06 → NB-03 → F06 → FR-02 → US-02 → T-03;OK;TRACABILITE_CORRIGE;—
+Compte, notification, durée, API, budget restent ouverts;OK;CDC_FONCTIONNEL_CORRIGE sections 8-9;—
+Aucun test exécuté ni réussite fictive;OK;ACCEPTATION_CORRIGE statut;—
+MoSCoW ne prouve pas la faisabilité;OK;PERIMETRE_MVP_CORRIGE;—

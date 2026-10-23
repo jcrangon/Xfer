@@ -1,0 +1,15 @@
+﻿ID fonction;Libellé;Source(s) B-xx / RA-xx;Besoin consolidé NB-xx;Priorité MoSCoW proposée;Valeur apportée;Dépendances;Question ouverte;Décision / statut
+F01;Catalogue public;B-01;NB-01;Must;Découverte des ateliers;F04 pour alimentation courante;Quelles séances rendues visibles ?;candidat
+F02;Recherche et filtres;B-01 (besoin indirect);NB-01;Should;Facilite la découverte;F01;Filtres indispensables dès V1 ?;proposition non explicitement demandée
+F03;Détail de séance;B-01,B-07;NB-01;Must;Connaître date, lieu et capacité;F01;Quelles informations obligatoires ?;candidat
+F04;Publication / modification;B-07,RA-01,RA-02;NB-04,NB-07;Must;Permettre gestion localisée;Règles d’accès;Qui valide les modifications atypiques ?;candidat non validé
+F05;Réservation;B-02,B-06;NB-02,NB-03;Must;Demander une place;F03,F06;Compte requis ? modalités de saisie ?;candidat non validé
+F06;Contrôle de capacité;B-06,RA-04;NB-03;Must;Empêcher dépassement de quota;F03;Concurrence et cas particuliers ?;candidat non validé
+F07;Confirmation;B-13,RA-08;NB-05;Must;Éliminer ambiguïté du résultat;F05,F06;Quel canal ?;"candidat ; notification externe ouverte"
+F08;Liste d’attente;B-08;NB-08;Should à arbitrer;Gérer séance complète;F05,F09 et règles d’invitation;Ordre et délais inconnus;pratique observée, besoin non approuvé
+F09;Annulation;B-09,RA-05;NB-06;Must;Récupérer capacité;F05,F06;Qui peut annuler et jusqu’à quand ?;candidat
+F10;Paiement en ligne;B-04,RA-08;NB-11;Won’t V1;Paiement potentiel futur;Flux financier / juridique J3;Paiement pas décidé pour V1;option différée
+F11;Rappels SMS;Aucune demande;—;Won’t V1;Confort éventuel;Contacts + fournisseur;Quel usage et consentement ?;aucune source de demande
+F12;Export de réservations;B-15 ne démontre pas le besoin;NB-07 (restriction seulement);Won’t V1 provisoire;Exploitation éventuelle;Habilitations/données;Un export est-il requis ?;proposition non justifiée
+F13;Application native;B-02,RA-06 (pas de commande native);NB-02;Won’t V1;Accès mobile potentiellement amélioré;Étude technique;Pourquoi natif serait indispensable ?;solution non demandée
+F14;Statistiques avancées;B-03 ne démontre pas cette fonction;NB-13;Won’t V1 provisoire;Analyse d’usage éventuelle;Données/indicateurs;Quels rapports réellement demandés ?;pas de demande vérifiée

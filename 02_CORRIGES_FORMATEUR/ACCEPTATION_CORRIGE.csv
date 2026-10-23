@@ -1,0 +1,13 @@
+﻿Test ID;Exigence FR-xx;Type;Etant donné (état initial);Quand (action);Alors (observable);Règle/paramètre ouvert;Statut
+T-01;FR-02;Nominal;Une séance ouverte avec capacité 2 et 0 confirmation;Une demande valide de réservation est reçue;"Une réservation est confirmée ; total = 1 ; places disponibles = 1";Modalités d’identité ouvertes;à exécuter après développement
+T-02;FR-02;Refus quota;Une séance ouverte de capacité 2 a 2 confirmations;Une troisième demande valide arrive;"Aucune confirmation supplémentaire ; total = 2";Aucune dérogation approuvée;à exécuter
+T-03;FR-02;Concurrence dernière place;Une séance de capacité 2 a 1 confirmation;Deux demandes sont traitées en concurrence;"Au plus une confirmation de plus ; total ≤ 2";Mode technique J3 à étudier;à exécuter
+T-04;FR-03;Retour utilisateur;Une demande de réservation vient d’être enregistrée;L’interface rend le résultat;L’état confirmé ou refusé est explicite et cohérent avec les données;Canal externe non fixé;à exécuter
+T-05;FR-04;Annulation;Une séance capacité 2 a 2 confirmations;Une réservation autorisée est annulée;"Une confirmation est retirée ; une place redevient disponible";Qui annule et délai ouverts;à exécuter
+T-06;FR-05;Sécurité inter-structures;Un gestionnaire S1 sans délégation tente de lire une réservation S2;Il demande la consultation ou la modification S2;"Accès refusé ; donnée S2 inchangée";Politique d’habilitation à approuver;à exécuter
+T-07;FR-06;Modification;Une séance de S1 et un gestionnaire S1 habilité;Il modifie l’horaire de la séance S1;L’horaire est enregistré et affiché;Gestion des notifications à préciser;à exécuter
+T-08;FR-07;Mobile;Le parcours s’ouvre sur un téléphone compatible (cible à fixer);Le participant réserve;Le parcours reste utilisable et montre le résultat;Liste appareils/navigateurs à valider;à compléter
+T-09;FR-07;Accessibilité clavier;La page catalogue et la fiche séance sont accessibles au clavier;Un utilisateur navigue sans souris puis soumet;Le parcours jusqu’au résultat reste opérable au clavier;Critères et référentiel à préciser;à compléter
+T-10;FR-01;Catalogue;Au moins deux séances sont publiées;Un visiteur consulte le catalogue;Les séances publiées et leurs informations autorisées sont affichées;Règles de publication à préciser;à exécuter
+T-11;FR-08;Liste attente conditionnelle;"Une place est libérée ; F08 est décidée et la règle d’ordre approuvée";Le mécanisme d’invitation se déclenche;Le participant désigné selon la règle est invité sans promesse de durée non décidée;Ordre/canal/délai à arbitrer;non testable complètement à ce jour
+T-12;FR-02;Refus séance fermée;La séance n’accepte plus d’inscriptions;Un participant tente une réservation;Aucune confirmation créée;Statut séance à préciser;à exécuter

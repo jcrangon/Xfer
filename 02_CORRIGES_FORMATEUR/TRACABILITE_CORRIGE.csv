@@ -1,0 +1,10 @@
+﻿Sources;Besoin NB-xx;Fonction Fxx;Exigence FR-xx;Story US-xx;Règle RM-xx;Parcours;Tests T-xx;Statut
+B-01;NB-01;F01;FR-01;US-01;RM-01;P01;T-10;candidat
+B-02,B-06,RA-04;NB-02,NB-03;F05,F06;FR-02;US-02;RM-02;P01;T-01,T-02,T-03;candidat, règle de capacité à valider
+B-13,RA-08;NB-05;F07;FR-03;US-03;RM-03;P01;T-04;canal externe ouvert
+B-09,RA-05;NB-06;F09;FR-04;US-04;RM-04;P01;T-05;délai d’annulation ouvert
+B-15,RA-02,RA-03;NB-07;F04;FR-05;US-05;RM-05;P02;T-06;délégation transverse ouverte
+B-07,RA-01;NB-04;F04;FR-06;US-06;RM-06;P02;T-07;règles d’annonce ouvertes
+B-02,RA-06;NB-02;F05;FR-07;US-07;NFR-03;P01;T-08;navigateurs à arbitrer
+B-14;NB-09;F05;FR-07;US-07;NFR-02;P01;T-09;accessibilité exigée, cible à préciser
+B-08,carte C;NB-08;F08;FR-08;US-08;RM-08;P01 option;T-11;conditionnel, hors MVP candidat

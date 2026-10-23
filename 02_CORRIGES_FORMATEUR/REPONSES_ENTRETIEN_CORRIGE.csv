@@ -1,0 +1,9 @@
+﻿ID réponse;Question E-xx;Citation exacte de la réponse;Rôle qui répond;Source carte / exercice;Statut de connaissance;Question non résolue
+RA-01;E06;"Les gestionnaires publient les séances de leur propre structure ; qui approuve les changements exceptionnels n'est pas encore fixé.";Interlocuteur réseau;CARTE A;simulation / approbation inconnue;Qui arbitre les modifications exceptionnelles ?
+RA-02;E08;Un gestionnaire local ne doit pas consulter les inscriptions d'une autre structure.;Interlocuteur réseau;CARTE A;règle proposée / validation à obtenir;Quelle autorité valide la politique d'accès ?
+RA-03;E08;"Un animateur intervient parfois dans deux structures ; nous n'avons pas défini ses droits transverses.";Interlocuteur réseau;CARTE A;droits inconnus;Comment formaliser une délégation inter-structures ?
+RA-04;E03;Pour une séance de dix places, nous ne voulons pas onze inscriptions confirmées.;Interlocuteur réseau;CARTE A;règle métier proposée;Exceptions et mécanismes de réservation simultanée ?
+RA-05;E05;"Si une inscription est annulée, la place doit redevenir disponible ; la règle de réattribution n'est pas décidée.";Interlocuteur réseau;CARTE A;partiellement défini;Annulation et reattribution : ordre et délai ?
+RA-06;E02;Pour le téléphone, je parle du parcours utilisable, pas d'une commande explicite d'application native.;Interlocuteur réseau;CARTE A;besoin reformulé / choix technique ouvert;Navigateurs et appareils cibles ?
+RA-07;E01;Le compte obligatoire ou facultatif est encore à discuter avec les représentants des publics.;Interlocuteur réseau;CARTE A;décision ouverte;Qui arbitre le compte ?
+RA-08;E10;Ni le paiement en première version, ni le canal précis de confirmation n'ont été validés.;Interlocuteur réseau;CARTE A;décisions ouvertes;Qui décide du paiement et des notifications ?

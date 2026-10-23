@@ -1,0 +1,15 @@
+﻿ID besoin;Sources B-xx / RA-xx;Besoin reformulé (résultat attendu);Fait confirmé / simulé / hypothèse;Fonction(s) candidate(s);Question ouverte;Qui peut arbitrer ?
+NB-01;B-01;Rendre les ateliers des 15 structures consultables dans un même service.;besoin exprimé, à valider;F01,F03;Périmètre éditorial exact ?;Direction réseau ?
+NB-02;B-02,RA-06;Permettre le parcours d’inscription depuis un téléphone.;simulation et expression, à confirmer;F05;Quels appareils / navigateurs, compte ?;Représentants des publics et direction ?
+NB-03;B-06,RA-04;Empêcher les confirmations au-delà de la capacité de la séance.;règle métier proposée, à valider;F05,F06;Surbooking et concurrence ?;Responsable métier ?
+NB-04;B-07,RA-01;Autoriser la gestion et la modification de séance selon les habilitations.;simulé, droit à valider;F04;Qui approuve un changement, comment avertir ?;Direction réseau ?
+NB-05;B-13,RA-08;Donner un résultat de réservation clair au participant.;besoin exprimé / canal inconnu;F07;Affichage, email, SMS ?;Direction et publics ?
+NB-06;B-09,RA-05;Libérer une place en cas d’annulation.;règle proposée, à valider;F09;Délai et réattribution ?;Responsable métier ?
+NB-07;B-15,RA-02,RA-03;Limiter l’accès aux données de chaque structure et clarifier les délégations.;restriction proposée / délégation inconnue;F04;Quels rôles, autorisations et validation ?;Direction + DPO ?
+NB-08;B-08;Gérer les personnes en attente, sous réserve de la règle métier.;pratique observée, besoin à confirmer;F08;A-t-on vraiment besoin de F08 en V1 ?;Responsable métier ?
+NB-09;B-14;Rendre le formulaire utilisable au clavier.;besoin exprimé à préciser;NFR-02;Référentiel cible et scénario de contrôle ?;Référent accessibilité ?
+NB-10;B-11,B-12,RA-07;Décider du parcours avec/sans compte et du suivi des réservations.;besoin contradictoire / non arbitré;F05 (modalité),F15 éventuel;Compte et récupération : quels usages ?;Direction et représentants des publics ?
+NB-11;B-04,RA-08;Étudier un paiement futur sans l’imposer en V1.;option non validée;F10;Paiement indispensable à la V1 ?;Direction ?
+NB-12;B-10;Étudier le raccordement au site vitrine existant.;information technique inconnue;Interface J3;Existe-t-il une API et une documentation ?;Référent technique ?
+NB-13;B-03;Confirmer la volumétrie d’usage avant dimensionnement.;hypothèse non mesurée;NFR perf J3;A-t-on des mesures réelles ?;Direction / analytique ?
+NB-14;B-16;Arbitrer les finalités et durées de conservation.;question non résolue;Données/NFR;Qui porte la décision ?;DPO et responsable de traitement ?
